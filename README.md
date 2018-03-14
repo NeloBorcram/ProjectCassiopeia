@@ -2,7 +2,7 @@
 
 *ProjectCassiopeia* is a hobby project of me trying to make a "Smart Terrarium" for my beautiful, little pet snake called Cassiopeia.
 
-I set up a Raspberry Pi 3 as a LAN Webserver using Rasperian, Apache2, PHPMyAdmin, MySQL (LAMP).  
+I set up a Raspberry Pi 3 as a LAN Webserver using Raspberian, Apache2, PHPMyAdmin, MySQL (LAMP).  
 This repository includes the current WebPage running on the Webserver. Its purpose is to receive GET requests from WiFi Modules connected to the Terrarium.  
 At the moment there is just one of such modules connected a WeMos ESP8266 mini which is connected to a DHT11 Temperature and Humidity Sensor.  
 
