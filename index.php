@@ -6,15 +6,16 @@
 	<title>ProjectCassiopeia</title>
   </head>
   <body>
+    <h1>TestApp by NexX</h1>
 	<div>
-		Halli hallo! That's my first <br>
-		Linux/Apache/Pi hosted Website!<br>
-		New features coming soon!<br><br>
-		Are you already impressed <b>Joey</b>??<br><br>
-		You better are! Love you, NexX!!!
+		<p>
+      This is the first version of the test page showing the <br>
+      Data transmitted from the DHT11 Temperature and Humidity <br>
+      Sensor via the WeMos D1 Mini.
+    </p>
 		</div>
-	
-	<div>
+
+	<div style="background-color: yellow">
 		<object data="output.html">
 			NoObjectTag support
 		</object>
@@ -26,11 +27,10 @@
 	<?php
 		echo "<div><br>That's actually a PHP output!<br></div><br>";
 		echo date('Y-m-d H:i:s');
-		echo "<br>yes! that was actually a date and a time!<br><br><br><br><br><br>";
+		echo "<br>This is the current date and time!<br><br><br><br><br><br>";
 		echo "<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>Now some boring PHP Info:";
 		phpinfo();
 
 	?>
   </body>
 </html>
-
