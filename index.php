@@ -15,11 +15,12 @@
     </p>
 		</div>
 
-	<div style="background-color: yellow;font-size:40px">
+	<div style="background-color: yellow;">
+    <p style="font-size:40px">
 		<object data="output.html">
 			NoObjectTag support
 		</object>
-
+  </p>
 		<?php //include 'output.php' ?>
 	</div>
 
